@@ -1,0 +1,25 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "description": "Topic: Rendering Enginer, REST, and MVC Architecture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "npx sequelize db:migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mysql2": "^3.3.4",
+    "sequelize": "^6.32.0"
+  }
+}
